@@ -1,49 +1,44 @@
-# 🧾 Aplikasi Pengecekan Kasir (PHP Native + MySQL)
+# 🧾 Aplikasi Pengecekan Kasir (Visual Basic .NET – Windows Forms)
 
-Aplikasi ini digunakan untuk melakukan pengecekan kasir (monitoring transaksi) pada toko atau UMKM.  
-Dibuat menggunakan **PHP Native**, **MySQL**, dan UI sederhana sehingga mudah dipahami dan digunakan.
+Aplikasi desktop untuk **monitoring & pengecekan transaksi kasir** pada toko/UMKM. Dibangun dengan **Visual Basic .NET (VB.NET)** menggunakan **Windows Forms**, fokus pada kemudahan penggunaan dan kecepatan input/cek transaksi.
 
 ---
 
 ## ✨ Fitur Utama
 
-✅ Login sebagai Admin dan Kasir  
-✅ Melihat dan mengecek transaksi kasir secara real-time  
-✅ Rekap transaksi berdasarkan tanggal  
-✅ Sistem input dan pengecekan sederhana dan cepat  
-✅ Friendly UI — cocok untuk digunakan sebagai aplikasi internal toko
+- 👤 **Login** (Admin/Kasir)
+- 💳 **Cek transaksi** kasir secara cepat
+- 📅 **Rekap berdasarkan tanggal** / shift
+- 🧮 **Ringkasan total** (pendapatan, jumlah transaksi, dll.)
+- 🔎 **Pencarian & filter** data
+- 🧾 **Ekspor** (opsional: CSV/Excel, sesuaikan dengan repo)
+- 🛡️ **Hak akses sederhana** (opsional)
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Teknologi
 
-| Teknologi | Fungsi |
-|----------|--------|
-| **PHP Native** | Backend logic aplikasi |
-| **MySQL** | Database sistem |
-| **Bootstrap** | Tampilan UI |
-| **XAMPP / Laragon** | Web server untuk menjalankan aplikasi |
+- **Bahasa:** Visual Basic .NET (VB.NET)  
+- **UI:** Windows Forms  
+- **.NET:** .NET Framework / .NET (Windows Desktop) – *sesuaikan dengan versi pada repo*  
+- **Database:** SQL Server / LocalDB / SQLite / Access *(sesuaikan dengan repo)*
 
----
-
-## 🚀 Cara Menjalankan (Singkat)
-
-1. Clone atau download project ini
-2. Import database ke MySQL / phpMyAdmin
-3. Pindahkan folder ke `htdocs` (jika XAMPP) atau `www` (jika Laragon)
-4. Jalankan server Apache dan MySQL
-5. Akses melalui browser:
-
-```
-http://localhost/Aplikasi-Pengecekan-Kasir
-```
+> *Catatan:* Silakan sesuaikan poin `.NET` dan `Database` dengan konfigurasi yang digunakan di repository Anda.
 
 ---
 
-## 📄 License
+## ✅ Kegunaan
 
-MIT License — bebas digunakan, diubah, dan dikembangkan.
+- Audit harian kasir (tutup buku)
+- Pemantauan transaksi kasir oleh admin/owner
+- Pendamping sistem POS sederhana di lingkungan offline
 
 ---
 
-✨ Jika aplikasi ini membantu, jangan lupa kasih **Star ⭐** di repository ini!
+## 📄 Lisensi
+
+**MIT License** — bebas digunakan & dimodifikasi untuk kebutuhan pribadi maupun komersial.
+
+---
+
+Jika aplikasi ini membantu, jangan lupa **⭐ beri bintang** pada repository! 🚀
